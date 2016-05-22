@@ -17,6 +17,7 @@ public class App
         FirefoxDriver driver= new FirefoxDriver();
         driver.get("http://google.com");
         String title=driver.getTitle();
+        System.out.println("welcome");
     }
 	@Test
 	public static void method2()
