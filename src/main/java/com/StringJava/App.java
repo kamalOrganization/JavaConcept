@@ -17,7 +17,6 @@ public class App
         FirefoxDriver driver= new FirefoxDriver();
         driver.get("http://google.com");
         String pSorce=driver.getPageSource();
-        System.out.println(pSorce);
     }
 	@Test
 	public static void method2()
