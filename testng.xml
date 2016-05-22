@@ -1,0 +1,12 @@
+<suite name="MavenFirstAutomation" verbose="3" thread-count="5" parallel="tests">
+
+  
+   <test name="Test Execution On Chrome">
+     <parameter name="Browser" value="CH" />
+	     <classes>
+	             <class name="com.StringJava.App"></class>
+	            <class name="com.StringJava.IntConcept"></class> 
+	             
+	        </classes>
+  </test>
+</suite>

@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.247 sec <<< FAILURE! - in TestSuite
+reverseINT_VAL(com.StringJava.IntConcept)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.ArithmeticException: / by zero
+	at com.StringJava.IntConcept.reverseINT_VAL(IntConcept.java:16)
+
