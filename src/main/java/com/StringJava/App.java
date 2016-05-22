@@ -14,7 +14,8 @@ public class App
     public static void hello( )
     {
         System.out.println( "Hello World!" );
-        new FirefoxDriver();
+        FirefoxDriver driver= new FirefoxDriver();
+        driver.get("http://google.com");
     }
 	@Test
 	public static void method2()
